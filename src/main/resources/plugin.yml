@@ -1,0 +1,26 @@
+name: X4yrAC
+version: '${version}'
+main: space.x4yr.Main
+api-version: '1.13'
+description: "X4yrAC - AI Anti-Cheat"
+folia-supported: true
+
+commands:
+  xac:
+    description: X4yrAC anticheat and data collection commands
+    usage: |
+      /xac start <NICK> <CHEAT|LEGIT|UNLABELED> "<comment>"
+      /xac stop <NICK>
+      /xac alerts - Toggle alerts
+      /xac prob <player> - Show player probability
+      /xac reload - Reload config
+    permission: xac.admin
+    aliases: [x4yrac]
+
+permissions:
+  xac.admin:
+    description: Allows use of all X4yrAC commands
+    default: op
+  xac.alerts:
+    description: Allows toggling AI alerts
+    default: op
