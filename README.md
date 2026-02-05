@@ -40,14 +40,14 @@
 
 ```
 Поле	          Тип	  Описание
-delta_yaw	      float	Изменение угла поворота по горизонтали (влево-вправо)
-delta_pitch	      float	Изменение угла поворота по вертикали (вверх-вниз)
-accel_yaw	      float	Ускорение поворота по yaw: delta_yaw[t] - delta_yaw[t-1]
-accel_pitch	      float	Ускорение поворота по pitch: delta_pitch[t] - delta_pitch[t-1]
-jerk_yaw	      float	Рывок (3-я производная) по yaw: accel_yaw[t] - accel_yaw[t-1]
-jerk_pitch	      float	Рывок (3-я производная) по pitch: accel_pitch[t] - accel_pitch[t-1]
-gcd_error_yaw	  float	Ошибка GCD по yaw — отклонение от "шага мыши" игрока
-gcd_error_pitch	  float	Ошибка GCD по pitch — отклонение от "шага мыши" игрока
+delta_yaw	      float	  Изменение угла поворота по горизонтали (влево-вправо)
+delta_pitch	      float	  Изменение угла поворота по вертикали (вверх-вниз)
+accel_yaw	      float	  Ускорение поворота по yaw: delta_yaw[t] - delta_yaw[t-1]
+accel_pitch	      float	  Ускорение поворота по pitch: delta_pitch[t] - delta_pitch[t-1]
+jerk_yaw	      float	  Рывок (3-я производная) по yaw: accel_yaw[t] - accel_yaw[t-1]
+jerk_pitch	      float	  Рывок (3-я производная) по pitch: accel_pitch[t] - accel_pitch[t-1]
+gcd_error_yaw	  float	  Ошибка GCD по yaw — отклонение от "шага мыши" игрока
+gcd_error_pitch	  float	  Ошибка GCD по pitch — отклонение от "шага мыши" игрока
 
 ```
 ### Сбор датасетов:
